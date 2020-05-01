@@ -1,7 +1,7 @@
 # CODA-19: COVID-19 Open Research Abstracting Dataset
 CODA-19 is a human-annotated large-scale scientific abstract dataset, in which human annotators manually labeled all the text segments in each abstract with one of the following *information types*: **Background, Purpose, Method, Finding/Contribution, and Other**. This annotation schema is adopted from [SOLVENT by Chan et al. (CSCW'18)](https://dl.acm.org/doi/10.1145/3274300), with minor changes.
 
-We teamed up with 200+ crowd workers on [Amazon Mechanical Turk](https://www.mturk.com/) to exhaustively label **10,966 abstracts**, containing 103,978 sentences, which were further divided into 168,286 text segments, within **10 days**.
+We teamed up with 200+ crowd workers on [Amazon Mechanical Turk](https://www.mturk.com/) to exhaustively label **10,966 abstracts**, containing 103,978 sentences, which were further divided into 168,286 text segments, within **10 days** (from April 19, 2020 to April 29, 2020, including the time for worker training and post-task survey).
 These abstracts were randomly selected from the [COVID-19 Open Research Dataset (CORD-19)](https://www.semanticscholar.org/cord19).
 The aggregated crowd labels resulted in **a label accuracy of 82% and an Cohen's kappa coefficient (κ) of 0.74**, comparing against expert labels annotated on 129 abstracts.
 
@@ -80,6 +80,10 @@ We ran out of budget after annotating ~11,000 abstracts.
 **Please reach out to us (Kenneth at txh710@psu.edu) if you or your institute are interested in funding this annotation effort.**
 
 ## How to Cite?
+
+## News
+
+[Human and AI annotations aim to improve scholarly results in COVID-19 searches](https://news.psu.edu/story/616031/2020/04/17/research/human-and-ai-annotations-aim-improve-scholarly-results-covid-19), April 17th, By Jordan Ford, PSU News.
 
 ## Acknowledgements
 This project is supported by Coronavirus Research Seed Fund (CRSF) and College of IST COVID-19 Seed Funding, both at the Penn State University.
