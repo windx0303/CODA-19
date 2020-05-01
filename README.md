@@ -5,9 +5,11 @@ We teamed up with 200+ crowd workers on [Amazon Mechanical Turk](https://www.mtu
 These abstracts were randomly selected from the [COVID-19 Open Research Dataset (CORD-19)](https://www.semanticscholar.org/cord19).
 The aggregated crowd label resulting an ~82% average label accuracy comparing against two sets of expert labels annotated on the same 129 abstracts, respectively.
 
+## Why?
+
 ## How did we do it?
 
-## Why?
+## Data Preprocessing
 
 ## JSON Schema
 
@@ -64,10 +66,11 @@ The aggregated crowd label resulting an ~82% average label accuracy comparing ag
 ```
 
 ## How much did it cost?
-With our setup, annotating an abstract on average costs **$3.2**. 
+Annotating one abstract costs **$3.2** on average with our setup.
 
-This cost includes the payment for workers and the 20% fee charged by mturk.
-We ran out of budget after annotating ~11,000 abstracts. 
+This cost includes the payments for workers and the 20% fee charged by mturk.
+We ran out of budget after annotating ~11,000 abstracts.
+
 **Please reach out to us (Kenneth at txh710@psu.edu) if you or your institute are interested in funding this annotation effort.**
 
 ## How to Cite?
