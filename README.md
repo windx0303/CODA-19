@@ -1,1 +1,8 @@
-# CODA-19: Annotating 10,000+ COVID-19 Abstracts Reliably with Non-Expert Crowd
+# CODA-19: COVID-19 Open Research Dataset Annotated with Segment-Level Dimension
+
+## What is this?
+
+## How did we do it?
+
+## Why?
+
