@@ -1,5 +1,5 @@
 # CODA-19: COVID-19 Open Research Abstracting Dataset
-CODA-19 is a human-annotated large-scale scientific abstract dataset, in which human annotators manually labeled all the text segments in each abstract with one of the following *information types*: **Background, Purpose, Method, Finding/Contribution, and Other**.
+CODA-19 is a human-annotated large-scale scientific abstract dataset, in which human annotators manually labeled all the text segments in each abstract with one of the following *information types*: **Background, Purpose, Method, Finding/Contribution, and Other**. This annotation schema is adopted from [SOLVENT by Chan et al. (CSCW'18)](https://dl.acm.org/doi/10.1145/3274300), with minor changes.
 
 We teamed up with 200+ crowd workers on [Amazon Mechanical Turk](https://www.mturk.com/) to exhaustively label 10,966 abstracts, containing 103,978 sentences, which were further divided into 168,286 text segments, within 10 days.
 These abstracts were randomly selected from the [COVID-19 Open Research Dataset (CORD-19)](https://www.semanticscholar.org/cord19).
@@ -65,6 +65,13 @@ The aggregated crowd label resulting an ~82% average label accuracy comparing ag
 ## How to Cite?
 
 ## Acknowledgements
+This project is supported by Coronavirus Research Seed Fund (CRSF) and College of IST COVID-19 Seed Funding, both at the Penn State University.
+We thank the crowd workers for participating in this project and providing useful feedback.
+We thank Tiffany Knearem and Shih-Hong (Alan) Huang for reviewing our interfaces and the text used in our HITs.
+We thank VoiceBunny Inc. for granting a 20% discount for the voiceover for the worker tutorial video.
+We also thank the staff members in IST's Finance Office for acting quickly, allowing us to start the project rapidly.
+
+
 
 
 
