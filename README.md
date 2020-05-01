@@ -5,6 +5,8 @@ We teamed up with 200+ crowd workers on [Amazon Mechanical Turk](https://www.mtu
 These abstracts were randomly selected from the [COVID-19 Open Research Dataset (CORD-19)](https://www.semanticscholar.org/cord19).
 The aggregated crowd label resulting an ~82% average label accuracy comparing against two sets of expert labels annotated on the same 129 abstracts, respectively.
 
+[Example Annotation](https://crowd.ist.psu.edu/CODA19/img/example.JPG)
+
 ## Why?
 
 ## How did we do it?
