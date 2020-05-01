@@ -62,6 +62,12 @@ The aggregated crowd label resulting an ~82% average label accuracy comparing ag
   }
 }
 ```
+
+## How much did it cost?
+With our setup, annotating an abstract on average costs $3.2, including and payment for workers and the 20% fee charged by mturk).
+We ran out of budget after annotating 11,000 abstracts. 
+**Please reach out to us (Kenneth at txh710@psu.edu) if you or your institute are interested in funding this annotation effort.**
+
 ## How to Cite?
 
 ## Acknowledgements
