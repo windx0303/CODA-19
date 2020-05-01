@@ -10,6 +10,24 @@ The following is an actual abstract (you can see the paper [here](https://www.na
 ![Example Annotation](https://crowd.ist.psu.edu/CODA19/img/example.JPG)
 
 ## Why do these annotations matter?
+This work was developed upon the long history of research on understanding scientific papers at scale, such as 
+creating structured abstracts to summarize the paper better, 
+representing the scientific knowledge of a paper efficiently and automatically, or 
+annotating argumentative zones to help information extraction.
+The premise of such researches is that scientific literature is growing too rapidly, so it is hard to read all the latest papers.
+This premise has become even more severe in the time of COVID-19 outbreak. 
+While COVID-19 is rapidly spreading worldwide, the rapid acceleration in new coronavirus literature makes it hard to keep up.
+
+Researchers have thus teamed up with the White House to release the [COVID-19 Open Research Dataset (CORD-19)](https://pages.semanticscholar.org/coronavirus-research), containing over 47,000 related scholarly articles.
+They also launched an [Open Research Dataset Challenge](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) to encourage AI/NLP researchers to use cutting-edge techniques to gain new insights for these papers.
+
+
+
+
+
+
+
+
 
 ## Why use non-expert crowd workers?
 
