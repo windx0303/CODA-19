@@ -9,7 +9,7 @@ The following is an actual abstract (you can see the paper [here](https://www.na
 
 ![Example Annotation](https://crowd.ist.psu.edu/CODA19/img/example.JPG)
 
-## Why do these annotations matter?
+#### Why do these annotations matter?
 
 This work was developed upon the long history of research on understanding scientific papers at scale. 
 In short, the rapid acceleration in new coronavirus literature makes it hard to keep up.
@@ -17,6 +17,8 @@ So we highlighted the papers with its **Background, Purpose, Method, and Finding
 
 This type of annotation is known to be able to help with the performances of various BioNLP tasks, too.
 
+
+#### Why use non-expert crowd?
 
 such as 
 creating structured abstracts to summarize the paper better, 
