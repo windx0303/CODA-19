@@ -3,19 +3,23 @@ CODA-19 is a human-annotated large-scale scientific abstract dataset, in which h
 
 We teamed up with 200+ crowd workers on [Amazon Mechanical Turk](https://www.mturk.com/) to exhaustively label **10,966 abstracts**, containing 103,978 sentences, which were further divided into 168,286 text segments, within **10 days** (from April 19, 2020 to April 29, 2020, including the time for worker training and post-task survey).
 These abstracts were randomly selected from the [COVID-19 Open Research Dataset (CORD-19)](https://www.semanticscholar.org/cord19).
-The aggregated crowd labels resulted in **a label accuracy of 82% and an Cohen's kappa coefficient (κ) of 0.74**, comparing against expert labels annotated on 129 abstracts.
+The aggregated crowd labels resulted in **a label accuracy of 82% and an Cohen's kappa coefficient (κ) of 0.74**, comparing against biomedical expert labels annotated on 129 abstracts.
 
 The following is an actual abstract (you can see the paper [here](https://www.nature.com/articles/s41422-020-0305-x)) annotated by crowd workers in CODA-19. 
 
 ![Example Annotation](https://crowd.ist.psu.edu/CODA19/img/example.JPG)
 
+## Why do these annotations matter?
+
+## Why use non-expert crowd workers?
+
 ## Data Preprocessing
 
-### Paper Filtering
+#### Paper Filtering
 
-### Tokenization, Sentence Segmentation, and Text Segmentation
+#### Tokenization, Sentence Segmentation, and Text Segmentation
 
-### Language Identification
+#### Language Identification
 
 ## JSON Schema
 
@@ -81,16 +85,20 @@ We ran out of budget after annotating ~11,000 abstracts.
 
 ## How to Cite?
 
-## News
+## Media Coverage
 
-[Human and AI annotations aim to improve scholarly results in COVID-19 searches](https://news.psu.edu/story/616031/2020/04/17/research/human-and-ai-annotations-aim-improve-scholarly-results-covid-19), April 17th, By Jordan Ford, PSU News.
+- [Human and AI annotations aim to improve scholarly results in COVID-19 searches](https://news.psu.edu/story/616031/2020/04/17/research/human-and-ai-annotations-aim-improve-scholarly-results-covid-19). April 17th, 2020. Jordan Ford. PSU News.
+
+- [Seed grants jump-start 47 interdisciplinary teams to conduct COVID-19 research
+](https://news.psu.edu/story/615456/2020/04/14/research/seed-grants-jump-start-47-interdisciplinary-teams-conduct-covid-19). April 14, 2020. Sara LaJeunesse. PSU News.
+
 
 ## Acknowledgements
 This project is supported by Coronavirus Research Seed Fund (CRSF) and College of IST COVID-19 Seed Funding, both at the Penn State University.
 We thank the crowd workers for participating in this project and providing useful feedback.
 We thank Tiffany Knearem and Shih-Hong (Alan) Huang for reviewing our interfaces and the text used in our HITs.
-We thank VoiceBunny Inc. for granting a 20% discount for the voiceover for the worker tutorial video.
-We also thank the staff members in IST's Finance Office for acting quickly, allowing us to start the project rapidly.
+We thank VoiceBunny.com for granting a 20% discount for the voiceover for the worker tutorial video to support projects relevant to COVID-19.
+We also thank the staff members in the Finance Office in IST for acting quickly, allowing us to start the project rapidly.
 
 
 
