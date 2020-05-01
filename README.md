@@ -1,7 +1,8 @@
 # CODA-19: COVID-19 Open Research Dataset Annotated with Segment-Level Dimension
 
-## What is this?
-CODA-19 contains human annotations for 10,965 abstracts in the [COVID-19 Open Research Dataset (CORD-19)](https://www.semanticscholar.org/cord19). We teamed up with 200+ human workers on (Amazon Mechanical Turk)[https://www.mturk.com/] to exhaustively label all the text segments in each abstract with their *information type*: **Background, Purpose, Method, Finding/Contribution, and Other**.
+## What is CODA-19?
+CODA-19 is a human-annotated dataset that contains 10,965 abstracts in the [COVID-19 Open Research Dataset (CORD-19)](https://www.semanticscholar.org/cord19).
+We teamed up with 200+ human workers on [Amazon Mechanical Turk](https://www.mturk.com/) to exhaustively label all the text segments in each abstract with their *information type*: **Background, Purpose, Method, Finding/Contribution, and Other**.
 
 ## How did we do it?
 
