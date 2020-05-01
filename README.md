@@ -22,40 +22,43 @@ The aggregated crowd label resulting an ~82% average label accuracy comparing ag
     "subset": the subset (custom_license/biorxiv_medrxiv/comm_use_subset/noncomm_use_subset) in CORD-19
   },
   "abstract": [
-    { /* paragraph 1 */
-      "original_text": the tokenized text of the paragraph,
+    { 
+      "original_text": the tokenized text of the paragraph 1,
       "sentences": [
-        [ /* sentence 1 in paragraph 1 */
+        [ 
           {
             "segment_text": the tokenized text of the text segment 1 in sentence 1 in paragraph 1, 
             "crowd_label": the label derived (e.g., majority vote) from a set of crowd labels
           },
           {
             "segment_text": the tokenized text of the text segment 2 in sentence 1 in paragraph 1, 
-            "crowd_label": the label derived (e.g., majority vote) from a set of crowd labels
+            ...
           },
           ...
         ],
-        [ /* sentence 2 in paragraph 1 */
+        [ 
           {
             "segment_text": the tokenized text of the text segment 1 in sentence 2 in paragraph 1, 
-            "crowd_label": the label derived (e.g., majority vote) from a set of crowd labels
+            ...
           },
           ...
         ],
         ...
       ]
     }
-    { /* paragraph 2 */
-        ...
+    { 
+        "original_text": the tokenized text of the paragraph 2,
+        "sentences": [
+            ...
+        ]
     },
     ...
   ],
   "abstract_stats": {
-    "paragraph_num": "1",
-    "sentence_num": "6",
-    "segment_num": "8",
-    "token_num": "186"
+    "paragraph_num": the total number of paragraphs in this abstract,
+    "sentence_num": the total number of sentences in this abstract,
+    "segment_num": the total number of text segments in this abstract,
+    "token_num": the total number of token in this abstract
   }
 }
 ```
