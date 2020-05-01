@@ -15,6 +15,8 @@ This work was developed upon the long history of research on understanding scien
 In short, the rapid acceleration in new coronavirus literature makes it hard to keep up.
 So we highlighted the papers with its **Background, Purpose, Method, and Finding/Contribution** (and Other) for you.
 
+This type of annotation is known to be able to help with the performances of various BioNLP tasks, too.
+
 
 such as 
 creating structured abstracts to summarize the paper better, 
