@@ -3,17 +3,19 @@ CODA-19 is a human-annotated large-scale scientific abstract dataset, in which h
 
 We teamed up with 200+ crowd workers on [Amazon Mechanical Turk](https://www.mturk.com/) to exhaustively label **10,966 abstracts**, containing 103,978 sentences, which were further divided into 168,286 text segments, within **10 days**.
 These abstracts were randomly selected from the [COVID-19 Open Research Dataset (CORD-19)](https://www.semanticscholar.org/cord19).
-The aggregated crowd labels resulted in a label accuracy of 82% and an Cohen's kappa coefficient (κ) of 0.74 when comparing against expert labels annotated on 129 abstracts.
+The aggregated crowd labels resulted in **a label accuracy of 82% and an Cohen's kappa coefficient (κ) of 0.74**, comparing against expert labels annotated on 129 abstracts.
 
-The following is an [actual abstract](https://www.nature.com/articles/s41422-020-0305-x) annotated by crowd workers in COVD-19. 
+The following is an actual abstract (you can see the paper [here](https://www.nature.com/articles/s41422-020-0305-x)) annotated by crowd workers in CODA-19. 
 
 ![Example Annotation](https://crowd.ist.psu.edu/CODA19/img/example.JPG)
 
-## Why?
-
-## How did we do it?
-
 ## Data Preprocessing
+
+### Paper Filtering
+
+### Tokenization, Sentence Segmentation, and Text Segmentation
+
+### Language Identification
 
 ## JSON Schema
 
