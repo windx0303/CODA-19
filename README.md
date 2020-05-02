@@ -1,4 +1,4 @@
-# CODA-19: COVID-19 Open Research Abstracting Dataset
+# CODA-19: COVID-19 Open Research Aspect Dataset
 CODA-19 is a human-annotated large-scale scientific abstract dataset, in which human annotators manually labeled all the text segments in each abstract with one of the following *information types*: **Background, Purpose, Method, Finding/Contribution, and Other**. This annotation schema is adopted from [SOLVENT by Chan et al. (CSCW'18)](https://dl.acm.org/doi/10.1145/3274300), with minor changes.
 
 We teamed up with 248 crowd workers on [Amazon Mechanical Turk](https://www.mturk.com/) to exhaustively label **10,966 abstracts**, containing 103,978 sentences, which were further divided into 168,286 text segments, within **10 days** (from April 19, 2020 to April 29, 2020, including the time for worker training and post-task survey).
@@ -17,34 +17,6 @@ So we highlighted the papers with its **Background, Purpose, Method, Finding/Con
 
 People can use these data to build an automated annotator to label the remaining papers in [CORD-19](https://pages.semanticscholar.org/coronavirus-research) and, more importantly, future papers.
 This type of annotation can also be useful for various BioNLP tasks.
-
-## Annotation Schema
-
-- Background
-  - Why is this problem important?
-  - What relevant works have been done before?
-  - What is still missing in the previous works?
-  - What are the high-level research questions?
-  - How might this help other research(ers)?
-- Purpose	
-  - What specific thing(s) do the researchers want to do?
-  - What specific knowledge do the researchers want to know?
-  - What specific hypothesis do the researchers want to test?
-- Method	
-  - How did the researchers do it or find out?
-  - What are the procedures and steps of the research?
-- Finding/Contribution	
-  - What did the researchers find out?
-  - Did the proposed methods work?
-  - Did the thing behave as the researchers expected?
-- Other	
-  - Text fragments that do NOT fit into any of the four categories above.
-  - Text fragments that are NOT part of the article.
-  - Text fragments that are NOT in English.
-  - Text fragments that contains ONLY reference marks (e.g., "[1,2,3,4,5") or ONLY dates (e.g., "April 20, 2008").
-  - Captions for figures and tables (e.g. "Figure 1: Experimental Result of ...", or "Table 1: The Typical Symptoms of ...")
-  - Formatting errors.
-  - I really don't know or I'm not sure.
 
 ## Data Selection & Preprocessing
 
