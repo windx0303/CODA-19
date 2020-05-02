@@ -18,6 +18,34 @@ So we highlighted the papers with its **Background, Purpose, Method, Finding/Con
 People can use these data to build an automated annotator to label the remaining papers in [CORD-19](https://pages.semanticscholar.org/coronavirus-research) and, more importantly, future papers.
 This type of annotation can also be useful for various BioNLP tasks.
 
+## Annotation Schema
+
+- Background
+  - Why is this problem important?
+  - What relevant works have been done before?
+  - What is still missing in the previous works?
+  - What are the high-level research questions?
+  - How might this help other research(ers)?
+- Purpose	
+  - What specific thing(s) do the researchers want to do?
+  - What specific knowledge do the researchers want to know?
+  - What specific hypothesis do the researchers want to test?
+- Method	
+  - How did the researchers do it or find out?
+  - What are the procedures and steps of the research?
+- Finding/Contribution	
+  - What did the researchers find out?
+  - Did the proposed methods work?
+  - Did the thing behave as the researchers expected?
+- Other	
+  - Text fragments that do NOT fit into any of the four categories above.
+  - Text fragments that are NOT part of the article.
+  - Text fragments that are NOT in English.
+  - Text fragments that contains ONLY reference marks (e.g., "[1,2,3,4,5") or ONLY dates (e.g., "April 20, 2008").
+  - Captions for figures and tables (e.g. "Figure 1: Experimental Result of ...", or "Table 1: The Typical Symptoms of ...")
+  - Formatting errors.
+  - I really don't know or I'm not sure.
+
 ## Data Selection & Preprocessing
 
 #### Paper Filtering
@@ -26,7 +54,7 @@ This type of annotation can also be useful for various BioNLP tasks.
 
 #### Language Identification
 
-## JSON Schema
+## Data JSON Schema
 
 ```
 {
@@ -81,12 +109,10 @@ This type of annotation can also be useful for various BioNLP tasks.
 ```
 
 ## How much did it cost?
-Annotating one abstract costs **$3.2** on average with our setup.
+Annotating one abstract costs **$3.2** on average with our setup. This cost includes the payments for workers and the 20% fee charged by mturk.
 
-This cost includes the payments for workers and the 20% fee charged by mturk.
-We ran out of budget after annotating ~11,000 abstracts.
-
-**Please reach out to us (Kenneth at txh710@psu.edu) if you or your institute are interested in funding this annotation effort.**
+Our current budget allowed us to annotate ~11,000 abstracts.
+**If you are interested in funding this annotation effort, please contact Kenneth at txh710@psu.edu).**
 
 ## How to Cite?
 
@@ -104,8 +130,3 @@ We thank the crowd workers for participating in this project and providing usefu
 We thank Tiffany Knearem and Shih-Hong (Alan) Huang for reviewing our interfaces and the text used in our HITs.
 We thank VoiceBunny.com for granting a 20% discount for the voiceover for the worker tutorial video to support projects relevant to COVID-19.
 We also thank the staff members in the Finance Office in IST for acting quickly, allowing us to start the project rapidly.
-
-
-
-
-
