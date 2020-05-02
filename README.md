@@ -18,7 +18,7 @@ So we highlighted the papers with its **Background, Purpose, Method, and Finding
 People can use these data to create automated annotators to label the remaining papers in [CORD-19](https://pages.semanticscholar.org/coronavirus-research) and/or future papers.
 This type of annotation is also known to be useful for several BioNLP tasks.
 
-## Why use non-expert crowd?
+## Why use non-expert crowd?\
 
 such as 
 creating structured abstracts to summarize the paper better, 
