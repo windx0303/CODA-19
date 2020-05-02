@@ -1,7 +1,7 @@
 # CODA-19: COVID-19 Open Research Abstracting Dataset
 CODA-19 is a human-annotated large-scale scientific abstract dataset, in which human annotators manually labeled all the text segments in each abstract with one of the following *information types*: **Background, Purpose, Method, Finding/Contribution, and Other**. This annotation schema is adopted from [SOLVENT by Chan et al. (CSCW'18)](https://dl.acm.org/doi/10.1145/3274300), with minor changes.
 
-We teamed up with 200+ crowd workers on [Amazon Mechanical Turk](https://www.mturk.com/) to exhaustively label **10,966 abstracts**, containing 103,978 sentences, which were further divided into 168,286 text segments, within **10 days** (from April 19, 2020 to April 29, 2020, including the time for worker training and post-task survey).
+We teamed up with 248 crowd workers on [Amazon Mechanical Turk](https://www.mturk.com/) to exhaustively label **10,966 abstracts**, containing 103,978 sentences, which were further divided into 168,286 text segments, within **10 days** (from April 19, 2020 to April 29, 2020, including the time for worker training and post-task survey).
 These abstracts were randomly selected from the [COVID-19 Open Research Dataset (CORD-19)](https://www.semanticscholar.org/cord19).
 The aggregated crowd labels resulted in **a label accuracy of 82% and an Cohen's kappa coefficient (κ) of 0.74**, comparing against biomedical expert labels annotated on 129 abstracts.
 
@@ -13,35 +13,12 @@ The following is an actual abstract (you can see the paper [here](https://www.na
 
 This work was developed upon the long history of research on understanding scientific papers at scale. 
 In short, the rapid acceleration in new coronavirus literature makes it hard to keep up with.
-So we highlighted the papers with its **Background, Purpose, Method, and Finding/Contribution** (and Other).
+So we highlighted the papers with its **Background, Purpose, Method, Finding/Contribution, and Other**.
 
-People can use these data to create automated annotators to label the remaining papers in [CORD-19](https://pages.semanticscholar.org/coronavirus-research) and/or future papers.
-This type of annotation is also known to be useful for several BioNLP tasks.
+People can use these data to build an automated annotator to label the remaining papers in [CORD-19](https://pages.semanticscholar.org/coronavirus-research) and, more importantly, future papers.
+This type of annotation can also be useful for various BioNLP tasks.
 
-## Why use non-expert crowd?\
-
-such as 
-creating structured abstracts to summarize the paper better, 
-representing the scientific knowledge of a paper efficiently and automatically, or 
-annotating argumentative zones to help information extraction.
-The premise of such researches is that scientific literature is growing too rapidly, so it is hard to read all the latest papers.
-This premise has become even more severe in the time of COVID-19 outbreak. 
-While COVID-19 is rapidly spreading worldwide, the rapid acceleration in new coronavirus literature makes it hard to keep up.
-
-Researchers have thus teamed up with the White House to release the [COVID-19 Open Research Dataset (CORD-19)](https://pages.semanticscholar.org/coronavirus-research), containing over 47,000 related scholarly articles.
-They also launched an [Open Research Dataset Challenge](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) to encourage AI/NLP researchers to use cutting-edge techniques to gain new insights for these papers.
-
-
-
-
-
-
-
-
-
-## Why use non-expert crowd workers?
-
-## Data Preprocessing
+## Data Selection & Preprocessing
 
 #### Paper Filtering
 
