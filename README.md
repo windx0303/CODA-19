@@ -35,6 +35,19 @@ During the annotation process, workers informed us that a few articles were not 
 We identified them automatically using [langdetect](https://github.com/Mimino666/langdetect) and excluded them.
 The released version of CODA-19 has totally 10,966 abstracts.
 
+## Folder Structure
+```
+├── human_label                         # human labels folder
+│   ├── test                            # test set
+│   │   └── expert                      # expert labels folder
+│   │       ├── biomedical_expert
+│   │       └── computer_science_expert
+│   ├── dev                             # dev set
+│   ├── train                           # training set
+│   └── coda_metadata.csv               # metadata for CODA-19
+└── machine_label                       # empty folder (for automatic labels)
+```
+
 ## Data JSON Schema
 
 ```
