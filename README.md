@@ -136,16 +136,16 @@ Our current budget allowed us to annotate ~11,000 abstracts.
 }
 ```
 
-## Media Coverage
-
-- [Human and AI annotations aim to improve scholarly results in COVID-19 searches](https://news.psu.edu/story/616031/2020/04/17/research/human-and-ai-annotations-aim-improve-scholarly-results-covid-19). April 17th, 2020. Jordan Ford. PSU News.
-
-- [Seed grants jump-start 47 interdisciplinary teams to conduct COVID-19 research
-](https://news.psu.edu/story/615456/2020/04/14/research/seed-grants-jump-start-47-interdisciplinary-teams-conduct-covid-19). April 14, 2020. Sara LaJeunesse. PSU News.
-
-
 ## Acknowledgements
 This project is supported by the Huck Institutes of the Life Sciences' Coronavirus Research Seed Fund (CRSF) at Penn State University and the College of IST COVID-19 Seed Fund at Penn State University.
 We thank the crowd workers for participating in this project and providing useful feedback. 
 We thank VoiceBunny Inc. for granting a 20% discount for the voiceover for the worker tutorial video to support projects relevant to COVID-19.
 We also thank Tiffany Knearem and Shih-Hong (Alan) Huang for reviewing our interfaces and the text used in our HITs.
+
+
+## Misc
+
+- [Human and AI annotations aim to improve scholarly results in COVID-19 searches](https://news.psu.edu/story/616031/2020/04/17/research/human-and-ai-annotations-aim-improve-scholarly-results-covid-19). April 17th, 2020. Jordan Ford. PSU News.
+
+- [Seed grants jump-start 47 interdisciplinary teams to conduct COVID-19 research
+](https://news.psu.edu/story/615456/2020/04/14/research/seed-grants-jump-start-47-interdisciplinary-teams-conduct-covid-19). April 14, 2020. Sara LaJeunesse. PSU News.
