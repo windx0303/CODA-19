@@ -47,7 +47,7 @@ The released version of CODA-19 has totally 10,966 abstracts.
 │   ├── dev                                         # dev set, containing 1,000 abstracts
 │   ├── train                                       # training set, containing 8,965 abstracts
 │   └── coda_metadata.csv                           # metadata for CODA-19
-└── machine_label                                   # empty folder (for automatic labels)
+└── machine_label                                   # empty folder (desgined for future automatic labels)
 ```
 
 ## Data JSON Schema
