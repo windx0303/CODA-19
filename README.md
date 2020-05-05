@@ -11,12 +11,11 @@ The following is an actual abstract (you can see the paper [here](https://www.bi
   <img src="https://crowd.ist.psu.edu/CODA19/img/example_v2_color_blind_safe.png" width="50%">
 </p>
 
-## Why create these annotations?
+## Motivation
 
 This work was developed upon the long history of research on understanding scientific papers at scale. 
 In short, the rapid acceleration in new coronavirus literature makes it hard to keep up with.
 So we highlighted the papers with its **Background, Purpose, Method, Finding/Contribution, and Other**.
-
 People can use these data to build an automated annotator to label the remaining papers in [CORD-19](https://pages.semanticscholar.org/coronavirus-research) and, more importantly, future papers.
 This type of annotation can also be useful for various BioNLP tasks.
 
@@ -113,6 +112,14 @@ Our current budget allowed us to annotate ~11,000 abstracts.
 **If you are interested in funding this annotation effort, please contact Kenneth at txh710@psu.edu).**
 
 ## How to Cite?
+```
+@ARTICLE {coda19,
+    author  = "Huang, Ting-Hao 'Kenneth' and Huang, Chieh-Yang and Ding, Chien-Kuang Cornelia and Hsu, Yen-Chia and Giles, C. Lee",
+    title   = "CODA-19: Reliably Annotating Research Aspects on 10,000+ CORD-19 Abstracts Using Non-Expert Crowd",
+    journal = "arXiv preprint arXiv:",
+    year    = "2020"
+}
+```
 
 ## Media Coverage
 
