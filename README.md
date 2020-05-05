@@ -5,9 +5,9 @@ We teamed up with 248 crowd workers on [Amazon Mechanical Turk](https://www.mtur
 These abstracts were randomly selected from the [COVID-19 Open Research Dataset (CORD-19)](https://www.semanticscholar.org/cord19).
 The aggregated crowd labels resulted in **a label accuracy of 82% and an Cohen's kappa coefficient (κ) of 0.74**, comparing against the labels annotated by a biomedical expert on 129 abstracts.
 
-The following is an actual abstract (you can see the paper [here](https://www.nature.com/articles/s41422-020-0305-x)) annotated by crowd workers in CODA-19. 
+The following is an actual abstract (you can see the paper [here](https://www.biorxiv.org/content/10.1101/509141v1.full)) annotated by crowd workers in CODA-19. 
 
-![Example Annotation](https://crowd.ist.psu.edu/CODA19/img/example.JPG)
+![Example Annotation](https://crowd.ist.psu.edu/CODA19/img/example_v2_color_blind_safe)
 
 ## Why create these annotations?
 
