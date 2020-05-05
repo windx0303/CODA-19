@@ -1,6 +1,6 @@
 # CODA-19: COVID-19 Open Research Aspect Dataset
 
-This paper introduces CODA-19, a human-annotated dataset that denotes the **Background, Purpose, Method, Finding/Contribution, and Other** for **10,966 English abstracts** in the [COVID-19 Open Research Dataset](https://www.semanticscholar.org/cord19).
+CODA-19 is a human-annotated dataset that denotes the **Background, Purpose, Method, Finding/Contribution, and Other** for **10,966 English abstracts** in the [COVID-19 Open Research Dataset](https://www.semanticscholar.org/cord19).
 CODA-19 was created by 248 crowd workers from [Amazon Mechanical Turk](https://www.mturk.com/) collectively within ten days.
 Each abstract was annotated by nine different workers, and the final labels were obtained by majority voting. CODA-19's labels have an accuracy of 82% and an inter-annotator agreement (Cohen's kappa) of 0.74 when compared against expert labels on 129 abstracts.
 
