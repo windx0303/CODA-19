@@ -7,7 +7,7 @@ The aggregated crowd labels resulted in **a label accuracy of 82% and an Cohen's
 
 The following is an actual abstract (you can see the paper [here](https://www.biorxiv.org/content/10.1101/509141v1.full)) annotated by crowd workers in CODA-19. 
 
-![Example Annotation](https://crowd.ist.psu.edu/CODA19/img/example_v2_color_blind_safe)
+![Example Annotation](https://crowd.ist.psu.edu/CODA19/img/example_v2_color_blind_safe.png)
 
 ## Why create these annotations?
 
