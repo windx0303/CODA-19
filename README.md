@@ -7,7 +7,9 @@ The aggregated crowd labels resulted in **a label accuracy of 82% and an Cohen's
 
 The following is an actual abstract (you can see the paper [here](https://www.biorxiv.org/content/10.1101/509141v1.full)) annotated by crowd workers in CODA-19. 
 
-![Example Annotation](https://crowd.ist.psu.edu/CODA19/img/example_v2_color_blind_safe.png | width=100)
+<p align="center">
+  <img src="https://crowd.ist.psu.edu/CODA19/img/example_v2_color_blind_safe.png" width="50%">
+</p>
 
 ## Why create these annotations?
 
@@ -18,13 +20,21 @@ So we highlighted the papers with its **Background, Purpose, Method, Finding/Con
 People can use these data to build an automated annotator to label the remaining papers in [CORD-19](https://pages.semanticscholar.org/coronavirus-research) and, more importantly, future papers.
 This type of annotation can also be useful for various BioNLP tasks.
 
-## Data Selection & Preprocessing
-
-#### Paper Filtering
+## Data Selection and Preprocessing
 
 #### Tokenization, Sentence Segmentation, and Text Segmentation
+We used [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/) to tokenize and segment sentences for all the abstracts in CORD-19.
+We further used comma (,), semicolon (;), and period (.) to split each sentence into shorter fragments, where a fragment has no less than six tokens (including punctuation marks) and has no orphan parentheses.
+As of April 15, 2020, 29,306 article in CORD-19 had a non-empty abstract.
+
+#### Paper Filtering
+We filtered out the 538 (1.84\%) abstracts with only one sentence and the 145 (0.49\%) abstracts that had more than 1,200 tokens.
+We randomly selected 11,000 abstracts from the remaining data for annotation.
 
 #### Language Identification
+During the annotation process, workers informed us that a few articles were not in English. 
+We identified them automatically using [langdetect](https://github.com/Mimino666/langdetect) and excluded them.
+The released version of CODA-19 has totally 10,966 abstracts.
 
 ## Data JSON Schema
 
@@ -80,6 +90,22 @@ This type of annotation can also be useful for various BioNLP tasks.
 }
 ```
 
+## Data Quality
+
+We worked with a biomedical expert and a computer scientist to assess the label quality.
+Both experts respectively annotated the same 129 abstracts randomly selected from CODA-19.
+The inter-annotator agreement (Cohen's kappa) between two expert is 0.788.
+Table 2 shows the aggregated crowd label's accuracy, along with the precision, recall, and F1-score of each class.
+CODA-19's labels have an accuracy of 0.82 and a kappa of 0.74, when compared against two experts' labels.
+It is noteworthy that when we compared labels between two experts, the accuracy (0.850) and kappa (0.788) were only slightly higher.
+
+<p align="center">
+  <img src="https://crowd.ist.psu.edu/CODA19/img/crowd_eval_table.png" width="90%">
+</p>
+
+
+
+
 ## How much did it cost?
 Annotating one abstract costs **$3.2** on average with our setup. This cost includes the payments for workers and the 20% fee charged by mturk.
 
@@ -97,8 +123,7 @@ Our current budget allowed us to annotate ~11,000 abstracts.
 
 
 ## Acknowledgements
-This project is supported by Coronavirus Research Seed Fund (CRSF) and College of IST COVID-19 Seed Funding, both at the Penn State University.
-We thank the crowd workers for participating in this project and providing useful feedback.
-We thank Tiffany Knearem and Shih-Hong (Alan) Huang for reviewing our interfaces and the text used in our HITs.
-We thank VoiceBunny.com for granting a 20% discount for the voiceover for the worker tutorial video to support projects relevant to COVID-19.
-We also thank the staff members in the Finance Office in IST for acting quickly, allowing us to start the project rapidly.
+This project is supported by the Huck Institutes of the Life Sciences' Coronavirus Research Seed Fund (CRSF) at Penn State University and the College of IST COVID-19 Seed Fund at Penn State University.
+We thank the crowd workers for participating in this project and providing useful feedback. 
+We thank VoiceBunny Inc. for granting a 20% discount for the voiceover for the worker tutorial video to support projects relevant to COVID-19.
+We also thank Tiffany Knearem and Shih-Hong (Alan) Huang for reviewing our interfaces and the text used in our HITs.
