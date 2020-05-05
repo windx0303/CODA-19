@@ -37,15 +37,17 @@ The released version of CODA-19 has totally 10,966 abstracts.
 
 ## Folder Structure
 ```
-├── human_label                         # human labels folder
-│   ├── test                            # test set
-│   │   └── expert                      # expert labels folder
-│   │       ├── biomedical_expert
-│   │       └── computer_science_expert
-│   ├── dev                             # dev set
-│   ├── train                           # training set
-│   └── coda_metadata.csv               # metadata for CODA-19
-└── machine_label                       # empty folder (for automatic labels)
+├── human_label                                     # human labels folder
+│   ├── test                                        # test set, containing 1,000 abstracts
+│   │   └── expert                                  # expert labels folder
+│   │       ├── biomedical_expert                   # expert labels from Bio expert
+│   │       ├── computer_science_expert             # expert labels from CS expert
+│   │       ├── biomedical_expert-eval.csv          # crowd labels evaluated against Bio expert's labels
+│   │       └── computer_science_expert-eval.csv    # crowd labels evaluated against CS expert's labels
+│   ├── dev                                         # dev set, containing 1,000 abstracts
+│   ├── train                                       # training set, containing 8,965 abstracts
+│   └── coda_metadata.csv                           # metadata for CODA-19
+└── machine_label                                   # empty folder (for automatic labels)
 ```
 
 ## Data JSON Schema
