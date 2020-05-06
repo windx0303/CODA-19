@@ -1,4 +1,4 @@
-# CODA-19: COVID-19 Research Aspect Dataset
+# CODA-19: **CO**VI**D**-19 Research **A**spect Dataset
 
 #### This is the Github repo for [CODA-19: Reliably Annotating Research Aspects on 10,000+ CORD-19 Abstracts Using Non-Expert Crowd](https://arxiv.org/abs/2005.02367).
 
