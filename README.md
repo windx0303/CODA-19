@@ -149,6 +149,8 @@ We also thank Tiffany Knearem and Shih-Hong (Alan) Huang for reviewing our inter
 
 ## Misc
 
+- [Some discussion on the corner cases and FAQs.](https://twitter.com/windx0303/status/1258508964687253506)
+
 - [Human and AI annotations aim to improve scholarly results in COVID-19 searches](https://news.psu.edu/story/616031/2020/04/17/research/human-and-ai-annotations-aim-improve-scholarly-results-covid-19). April 17th, 2020. Jordan Ford. PSU News.
 
 - [Seed grants jump-start 47 interdisciplinary teams to conduct COVID-19 research
