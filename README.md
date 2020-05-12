@@ -132,7 +132,7 @@ Our current budget allowed us to annotate ~11,000 abstracts.
 
 ## How to Cite?
 ```
-@article{kenneth2020coda,
+@article{huang2020coda,
   title={CODA-19: Reliably Annotating Research Aspects on 10,000+ CORD-19 Abstracts Using Non-Expert Crowd},
   author={Huang, Ting-Hao K. and Huang, Chieh-Yang and Ding, Chien-Kuang C. and Hsu, Yen-Chia and Giles, C Lee},
   journal={arXiv},
