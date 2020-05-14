@@ -150,6 +150,8 @@ We also thank Tiffany Knearem and Shih-Hong (Alan) Huang for reviewing our inter
 
 ## Misc
 
+- [IST seed grants support tech projects related to COVID-19](https://news.psu.edu/story/619919/2020/05/13/research/ist-seed-grants-support-tech-projects-related-covid-19). May 13, 2020. PSU News.
+
 - [Some discussion on the corner cases and FAQs.](https://twitter.com/windx0303/status/1258508964687253506)
 
 - [Human and AI annotations aim to improve scholarly results in COVID-19 searches](https://news.psu.edu/story/616031/2020/04/17/research/human-and-ai-annotations-aim-improve-scholarly-results-covid-19). April 17th, 2020. Jordan Ford. PSU News.
