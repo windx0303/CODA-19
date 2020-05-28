@@ -1,6 +1,6 @@
 # CODA-19: **CO**VI**D**-19 Research **A**spect Dataset
 
-#### This is the Github repo for [CODA-19: Reliably Annotating Research Aspects on 10,000+ CORD-19 Abstracts Using Non-Expert Crowd](https://arxiv.org/abs/2005.02367).
+#### This is the Github repo for [CODA-19: Reliably Annotating Research Aspects on 10,000+ CORD-19 Abstracts Using a Non-Expert Crowd](https://arxiv.org/abs/2005.02367).
 
 CODA-19 is a human-annotated dataset that denotes the **Background, Purpose, Method, Finding/Contribution, and Other** for **10,966 English abstracts** in the [COVID-19 Open Research Dataset](https://www.semanticscholar.org/cord19).
 
@@ -133,7 +133,7 @@ Our current budget allowed us to annotate ~11,000 abstracts.
 ## How to Cite?
 ```
 @article{huang2020coda,
-  title={CODA-19: Reliably Annotating Research Aspects on 10,000+ CORD-19 Abstracts Using Non-Expert Crowd},
+  title={CODA-19: Reliably Annotating Research Aspects on 10,000+ CORD-19 Abstracts Using a Non-Expert Crowd},
   author={Huang, Ting-Hao K. and Huang, Chieh-Yang and Ding, Chien-Kuang C. and Hsu, Yen-Chia and Giles, C Lee},
   journal={arXiv preprint arXiv:2005.02367},
   year={2020}
