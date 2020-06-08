@@ -30,7 +30,7 @@ Experiment results and trained models will be stored in the **result** and **mod
 Since BERT has its own tokenizer, the tokenized and processed data will be stored in the **cache** folder.
 ```
 $ cd src
-$ python bert_baseline [--model MODEL_NAME]
+$ python bert_baseline.py [--model MODEL_NAME]
 ```
 
 #### If you would like to change the hyper-parameters...
