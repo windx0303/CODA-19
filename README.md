@@ -15,6 +15,10 @@ The following is an actual abstract (you can see the paper [here](https://www.bi
   <img src="https://crowd.ist.psu.edu/CODA19/img/example_v2_color_blind_safe.png" width="50%">
 </p>
 
+## Can I use your classifiers? ##
+
+*Yes*, we made our baseline classifiers avalible. Please go to the [classification folder](https://github.com/windx0303/CODA-19/tree/master/classification) of this repo.
+
 ## Motivation
 
 This work was developed upon the long history of research on understanding scientific papers at scale. 
