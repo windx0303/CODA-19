@@ -164,7 +164,9 @@ def bert_baseline(arg):
         model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=5).to(device)
     elif version == "sci-bert":
         print("Using SCI-Bert!!!")
-        config = BertConfig(vocab_size=31090, num_labels=5)
+        #config = BertConfig(vocab_size=31090, num_labels=5)
+        config = AudoConfig.from_pretrained('allenai/scibert_scivocab_uncased')
+        config.num_labels = 5
         model = AutoModelForSequenceClassification.from_pretrained('allenai/scibert_scivocab_uncased', config=config).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
@@ -214,8 +216,9 @@ def bert_baseline(arg):
 
     # load best model & test & save
     print("loading model from epoch {}".format(best_epoch))
-    torch.save(best_model, os.path.join(dl_model_dir, "best_model.pt"))
+    #torch.save(best_model, os.path.join(dl_model_dir, "best_model.pt"))
     model.load_state_dict(best_model)
+    model.save_pretrained(dl_model_dir)
     acc, predict, true_label = evaluate(model, testing, device=device) 
     score = precision_recall_fscore_support(true_label, predict)
     table = output_score(score)

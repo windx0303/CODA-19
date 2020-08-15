@@ -117,7 +117,7 @@ def ml_baseline(arg):
     print("Accuracy", acc)
 
     with open(os.path.join(result_dir, "{}.result".format(version)), 'w', encoding='utf-8') as outfile:
-        outfile.write(str(parameter)+"\n")
+        outfile.write(str(best_parameter)+"\n")
         outfile.write(table.to_csv(path_or_buf=None)+"\n")
         outfile.write("acc = {}\n".format(acc))
 
