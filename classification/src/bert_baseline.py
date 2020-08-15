@@ -5,7 +5,7 @@ from baseline import CovidDataset, evaluate
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 import copy
 
-from transformers import BertTokenizer, BertForSequenceClassification, AutoTokenizer, AutoModelForSequenceClassification, PretrainedConfig, BertConfig
+from transformers import BertTokenizerFast, BertForSequenceClassification, AutoTokenizer, AutoModelForSequenceClassification, PretrainedConfig, BertConfig, AutoConfig
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -18,13 +18,13 @@ import os
 from pprint import pprint
 import argparse
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 class Feature:
     def __init__(self, pad_length=100, tokenizer=None):
         self.pad_length = pad_length
         if tokenizer is None:
-            self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+            self.tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
         else:
             self.tokenizer = tokenizer
         self.pad_id, self.cls_id, self.sep_id = self.tokenizer.convert_tokens_to_ids(
@@ -119,11 +119,12 @@ def bert_baseline(arg):
         
         # turn text into ids
         if version == "bert":
-            feature = Feature()
+            tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
         elif version == "sci-bert":
-            feature = Feature(
-                tokenizer=AutoTokenizer.from_pretrained('allenai/scibert_scivocab_uncased')
-            )
+            tokenizer = AutoTokenizer.from_pretrained('allenai/scibert_scivocab_uncased')
+        tokenizer.save_pretrained(dl_model_dir)
+
+        feature = Feature(tokenizer=tokenizer)
         x_train = feature.extract(x_train[:])
         x_test = feature.extract(x_test[:])
         x_dev = feature.extract(x_dev[:])
@@ -165,7 +166,7 @@ def bert_baseline(arg):
     elif version == "sci-bert":
         print("Using SCI-Bert!!!")
         #config = BertConfig(vocab_size=31090, num_labels=5)
-        config = AudoConfig.from_pretrained('allenai/scibert_scivocab_uncased')
+        config = AutoConfig.from_pretrained('allenai/scibert_scivocab_uncased')
         config.num_labels = 5
         model = AutoModelForSequenceClassification.from_pretrained('allenai/scibert_scivocab_uncased', config=config).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
@@ -235,7 +236,7 @@ def check_length():
     x_test, y_test = load_data(phrase="test", verbose=True)
     x_dev, y_dev = load_data(phrase="dev", verbose=True)
     
-    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+    tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
     x_train = [tokenizer.encode(s, add_special_tokens=False) for s in x_train]
     x_test = [tokenizer.encode(s, add_special_tokens=False) for s in x_test]
     x_dev = [tokenizer.encode(s, add_special_tokens=False) for s in x_dev]
