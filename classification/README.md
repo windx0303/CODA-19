@@ -42,6 +42,29 @@ Modify **dl_config.py** for LSTM and CNN.
 Modify **bert_config.py** for BERT and Sci-BERT.
 
 ## Use the fine-tuned BERT and Sci-BERT model
+
+**Now you can access the model directly from HuggingFace!**
+
+#### BERT
+```python
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+tokenizer = AutoTokenizer.from_pretrained("appleternity/bert-base-uncased-finetuned-coda19")
+model = AutoModelForSequenceClassification.from_pretrained("appleternity/bert-base-uncased-finetuned-coda19")
+```
+
+#### Sci-BERT
+```python
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+tokenizer = AutoTokenizer.from_pretrained("appleternity/scibert-uncased-finetuned-coda19")
+model = AutoModelForSequenceClassification.from_pretrained("appleternity/scibert-uncased-finetuned-coda19")
+```
+
+
+
+**! Below are the old method**
+
 The fine-tuned BERT and Sci-BERT model can be found [**here**](https://drive.google.com/drive/folders/1o75jKKBScu2AOoEUxHIuxbEz0BmZxs-2?usp=sharing).
 
 URL: https://drive.google.com/drive/folders/1o75jKKBScu2AOoEUxHIuxbEz0BmZxs-2?usp=sharing
@@ -52,7 +75,7 @@ You can use the following code to load the model.
 ```python
 from transformers import BertTokenizer, BertForSequenceClassification
 
-model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=5).to(device)
+model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=5)
 model.load_state_dict(torch.load("bert_best_model.pt"))
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 ```
@@ -61,7 +84,7 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 from transformers AutoTokenizer, AutoModelForSequenceClassification, BertConfig
 
 config = BertConfig(vocab_size=31090, num_labels=5)
-model = AutoModelForSequenceClassification.from_pretrained('allenai/scibert_scivocab_uncased', config=config).to(device)
+model = AutoModelForSequenceClassification.from_pretrained('allenai/scibert_scivocab_uncased', config=config)
 model.load_state_dict(torch.load("scibert_best_model.pt"))
 tokenizer = AutoTokenizer.from_pretrained('allenai/scibert_scivocab_uncased')
 ```
