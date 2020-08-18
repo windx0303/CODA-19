@@ -1,6 +1,6 @@
 # CODA-19: **CO**VI**D**-19 Research **A**spect Dataset
 
-#### This is the Github repo for [CODA-19: Reliably Annotating Research Aspects on 10,000+ CORD-19 Abstracts Using a Non-Expert Crowd](https://arxiv.org/abs/2005.02367).
+#### This is the Github repo of [CODA-19: Using a Non-Expert Crowd to Annotate Research Aspects on 10,000+ Abstracts in the COVID-19 Open Research Dataset](https://arxiv.org/abs/2005.02367).
 
 CODA-19 is a human-annotated dataset that denotes the **Background, Purpose, Method, Finding/Contribution, and Other** for **10,966 English abstracts** in the [COVID-19 Open Research Dataset](https://www.semanticscholar.org/cord19).
 
@@ -137,7 +137,7 @@ Our current budget allowed us to annotate ~11,000 abstracts.
 ## How to Cite?
 ```
 @article{huang2020coda,
-  title={CODA-19: Reliably Annotating Research Aspects on 10,000+ CORD-19 Abstracts Using a Non-Expert Crowd},
+  title={CODA-19: Using a Non-Expert Crowd to Annotate Research Aspects on 10,000+ Abstracts in the COVID-19 Open Research Dataset},
   author={Huang, Ting-Hao K. and Huang, Chieh-Yang and Ding, Chien-Kuang C. and Hsu, Yen-Chia and Giles, C Lee},
   journal={arXiv preprint arXiv:2005.02367},
   year={2020}
@@ -146,12 +146,13 @@ Our current budget allowed us to annotate ~11,000 abstracts.
 
 ## Acknowledgements
 This project is supported by the Huck Institutes of the Life Sciences' Coronavirus Research Seed Fund (CRSF) at Penn State University and the College of IST COVID-19 Seed Fund at Penn State University.
-We thank the crowd workers for participating in this project and providing useful feedback. 
-We thank VoiceBunny Inc. for granting a 20% discount for the voiceover for the worker tutorial video to support projects relevant to COVID-19.
-We also thank Tiffany Knearem and Shih-Hong (Alan) Huang for reviewing our interfaces and the text used in our HITs.
-
+We thank the crowd workers for participating in this project and providing useful feedback.
+We thank VoiceBunny Inc. for granting a 60% discount for the voiceover for the worker tutorial video to support projects relevant to COVID-19.
+We also thank Tiffany Knearem, Shih-Hong (Alan) Huang, Joseph Chee Chang, and Frank Ritter for the great discussion and useful feedback.
 
 ## Misc
+
+- We presented our work at the [NLP COVID Workshop @ ACL 2020](https://www.nlpcovid19workshop.org/acl2020/schedule). July 09, 2020.
 
 - [IST seed grants support tech projects related to COVID-19](https://news.psu.edu/story/619919/2020/05/13/research/ist-seed-grants-support-tech-projects-related-covid-19). May 13, 2020. PSU News.
 
