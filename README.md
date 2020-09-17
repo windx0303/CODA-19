@@ -136,11 +136,15 @@ Our current budget allowed us to annotate ~11,000 abstracts.
 
 ## How to Cite?
 ```
-@article{huang2020coda,
-  title={CODA-19: Using a Non-Expert Crowd to Annotate Research Aspects on 10,000+ Abstracts in the COVID-19 Open Research Dataset},
-  author={Huang, Ting-Hao K. and Huang, Chieh-Yang and Ding, Chien-Kuang C. and Hsu, Yen-Chia and Giles, C Lee},
-  journal={arXiv preprint arXiv:2005.02367},
-  year={2020}
+@inproceedings{huang2020coda,
+	title={CODA-19: Using a Non-Expert Crowd to Annotate Research Aspects on 10,000+ Abstracts in the COVID-19 Open Research Dataset},
+	author={Huang, Ting-Hao Kenneth and Huang, Chieh-Yang and Ding, Chien-Kuang Cornelia and Hsu, Yen-Chia and Giles, C Lee},
+	year={2020},
+	booktitle={Proceedings of the 1st Workshop on {NLP} for {COVID-19} at {ACL 2020}},
+	month = jul,
+	volume = 1,
+	address = "Online",
+	publisher = "Association for Computational Linguistics",
 }
 ```
 
