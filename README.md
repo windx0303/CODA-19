@@ -15,11 +15,11 @@ The following is an actual abstract (you can see the paper [here](https://www.bi
   <img src="https://crowd.ist.psu.edu/CODA19/img/example_v2_color_blind_safe.png" width="50%">
 </p>
 
-## Worker Interface Release (Update on 2021/10/07) ##
+## Worker Interface Release (Updated on 2021/10/07) ##
 
 You can download the worker interface we used to construct CODA-19 from here: [Download CODA-19 Interfaces (~50MB)](https://www.dropbox.com/sh/7y3uiyjfavrvc3r/AABpz8DoX0EzQBVtvTYX53Hpa?dl=0).
 
-These are the interfaces of the last batch of HITs we posted to MTurk for CODA-19. You can download them and open any HTML file on your local laptop. 
+These are the interfaces of the last batch of HITs we posted to MTurk when constructing CODA-19. You can download them and simply open any HTML file on your local laptop. 
 
 We iteratively improved the instruction and worker interface for each batch. These are the last batch, so the instructions are the most complete.
 
